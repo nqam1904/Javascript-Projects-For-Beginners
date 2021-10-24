@@ -1,20 +1,24 @@
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
 
-body {
-  margin-top: 10%;
-  margin-left: 10%;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-form {
-  display: inline-block;
-  margin: 0 auto;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
 
 .pseudo-search {
-  display: inline;
   border: 2px solid #ccc;
   border-radius: 100px;
   padding: 10px 15px;
+  margin-top: 20px;
   transition: background-color 0.5 ease-in-out;
 }
 input {
@@ -34,4 +38,12 @@ i {
 
 select {
   border: none;
+}
+ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.list-item {
+  margin-top: 10px;
 }
