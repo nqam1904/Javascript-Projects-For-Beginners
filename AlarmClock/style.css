@@ -1,0 +1,35 @@
+:root {
+  --background: #e4e7eb;
+  --white: #ffffff;
+  --yellow: #ffac14;
+  --green: #49cc6e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+h1 {
+  font-size: 60px;
+  color: var(--white);
+}
+button {
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50px;
+  background-color: var(--green);
+  border-style: none;
+  color: var(--white);
+}
+button:hover {
+  background-color: #cff2d9;
+}
